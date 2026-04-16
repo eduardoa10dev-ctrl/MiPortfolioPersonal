@@ -82,7 +82,14 @@ body {
   color: var(--amarillo);
   background-color: var(--amarillo-suave);
 }
-
+/* --- BARRAS DIVISORIAS SIMPLES --- */
+.divisor {
+  height: 3px;
+  background-color: var(--amarillo);
+  opacity: 0.5; /* Para que sea sutil */
+  width: 80%;
+  margin: 0 auto;
+}
 /* Layout de las secciones */
 .seccion {
   padding-top: 110px;
